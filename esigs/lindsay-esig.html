@@ -5,8 +5,16 @@
 <meta name="color-scheme" content="light dark">
 <meta name="supported-color-schemes" content="light dark">
 <title>Lindsay Young — Email Signature</title>
-<link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
 <style>
+  /* Lora SemiBold, self-hosted from this repo. Apple Mail and iPhone load it;
+     Gmail and Outlook fall back to Georgia. */
+  @font-face {
+    font-family:'Lora';
+    font-style:normal;
+    font-weight:600;
+    font-display:swap;
+    src:url('https://raw.githubusercontent.com/lindsay-dev-creative/ldc/main/Lora-SemiBold.ttf') format('truetype');
+  }
   @media only screen and (max-width: 480px) {
     .sig-stack { display:block !important; width:100% !important; }
     .sig-headshot-cell { padding:0 0 16px 0 !important; }
