@@ -6,14 +6,21 @@
 <meta name="supported-color-schemes" content="light dark">
 <title>Lindsay Young — Email Signature</title>
 <style>
-  /* Lora SemiBold, self-hosted from this repo. Apple Mail and iPhone load it;
-     Gmail and Outlook fall back to Georgia. */
+  /* Lora Bold (name) and Regular (title), self-hosted from this repo.
+     Apple Mail and iPhone load them; Gmail and Outlook fall back to Georgia. */
   @font-face {
     font-family:'Lora';
     font-style:normal;
-    font-weight:600;
+    font-weight:700;
     font-display:swap;
-    src:url('https://raw.githubusercontent.com/lindsay-dev-creative/ldc/main/fonts/Lora-SemiBold.ttf') format('truetype');
+    src:url('https://raw.githubusercontent.com/lindsay-dev-creative/ldc/main/fonts/Lora-Bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family:'Lora';
+    font-style:normal;
+    font-weight:400;
+    font-display:swap;
+    src:url('https://raw.githubusercontent.com/lindsay-dev-creative/ldc/main/fonts/Lora-Regular.ttf') format('truetype');
   }
   @media only screen and (max-width: 480px) {
     .sig-stack { display:block !important; width:100% !important; }
@@ -75,11 +82,11 @@
 
             <!-- Name block -->
             <div style="padding-bottom:10px;">
-              <div class="sig-name" style="font-family:'Lora',Georgia,'Times New Roman',serif;font-size:24px;font-weight:600;color:#0a0a0a;letter-spacing:-0.01em;line-height:1.09;">
+              <div class="sig-name" style="font-family:'Lora',Georgia,'Times New Roman',serif;font-size:24px;font-weight:700;color:#0a0a0a;letter-spacing:-0.01em;line-height:1.25em;">
                 Lindsay Young
               </div>
-              <div style="font-size:11px;font-weight:500;color:#d4a85a;letter-spacing:0.08em;text-transform:uppercase;margin-top:6px;line-height:1.4;">
-                Owner &amp; Creative Director
+              <div style="font-family:'Lora',Georgia,'Times New Roman',serif;font-size:14px;font-weight:400;color:#d4a85a;letter-spacing:0em;margin-top:3px;line-height:1.5;">
+                Owner & Creative Director
               </div>
             </div>
 
@@ -182,16 +189,16 @@
           </td>
 
           <!-- Logo column -->
-          <td style="vertical-align:top;padding-left:8px;">
+          <td style="vertical-align:top;padding-left:20px;">
             <a href="https://www.lindsaydevcreative.com/" style="display:inline-block;line-height:0;text-decoration:none;">
               <img class="sig-light" src="https://raw.githubusercontent.com/lindsay-dev-creative/ldc/main/logos/ldc-logo-circle.png"
                    alt="Lindsay Dev Creative"
-                   width="60" height="60"
-                   style="display:block;width:60px;height:60px;border:0;">
+                   width="72" height="72"
+                   style="display:block;width:72px;height:72px;border:0;">
               <img class="sig-dark" src="https://raw.githubusercontent.com/lindsay-dev-creative/ldc/main/logos/ldc-logo-circle-white.png"
                    alt="Lindsay Dev Creative"
-                   width="60" height="60"
-                   style="display:none;mso-hide:all;max-height:0;overflow:hidden;width:60px;height:60px;border:0;">
+                   width="72" height="72"
+                   style="display:none;mso-hide:all;max-height:0;overflow:hidden;width:72px;height:72px;border:0;">
             </a>
           </td>
         </tr>
